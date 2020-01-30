@@ -38,6 +38,7 @@ bool push(stack *s, item *i) {
   if (s && s->entries) {
     s->entries[s->top] = *i;
     s->top += 1;
+    return true;
   }
-  return true;
+  return false;
 }
