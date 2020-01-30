@@ -1,2 +1,2 @@
-# stack
-A simple stack implementation for instructional purposed.
+# Stack
+A simple stack implementation for instructional purposes.
