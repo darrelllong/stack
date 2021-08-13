@@ -1,5 +1,5 @@
-#ifndef _STACK_H
-#define _STACK_H
+#pragma once
+
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdlib.h>
@@ -25,4 +25,5 @@ static inline void delStack(stack *s) {
 }
 
 static inline bool emptyS(stack *s) { return s->top == 0; }
-#endif
+
+static inline bool fullS(stack *s) { return !s; }
